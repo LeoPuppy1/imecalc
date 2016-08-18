@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<IMCconfig>
+	<geofile></geofile>
+	<nsetload name="nsetl1" dir="u1" mag="1" id="1">1,2,3,4,5,6,7,8</nsetload>
+	<nsetload name="nsetl2" dir="u2" mag="1" id="2">9,10,11,12,13,14</nsetload>
+	<nsetbnd name="nsetb1" dof="u1 u3" id="1">51,52,53,54,55,56</nsetbnd>
+	<nsetbnd name="nsetb2" dof="u2" id="2">61,62,63,64,65,66</nsetbnd>
+	<mat type="elastic" id="1">
+		<name>steel</name>
+		<EX>210000</EX>
+		<NUXY>0.3</NUXY>
+		<ROU>7.8E-9</ROU>
+	</mat>
+	<sldsect id="1">
+		<matname>steel</matname>
+		<elset>-1</elset>
+	</sldsect>
+	<anstype>
+		<static>1</static>
+		<modal>0</modal>
+		<buckling>0</buckling>
+	</anstype>
+	<output>
+		<U>1</U>
+		<S>1</S>
+		<E>1</E>
+	</output>
+</IMCconfig>
