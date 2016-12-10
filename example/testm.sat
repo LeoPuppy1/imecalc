@@ -1,0 +1,109 @@
+500 0 1 0 
+58 PRO/ENGINEER BY PARAMETRIC TECHNOLOGY CORPORATION, 2010280 8 ACIS 7.0 24
+Thu Apr 07 11:02:10 2016 
+1 0.00082002817090390278 1e-10 
+-0 body $-1 $1 $-1 $2 #
+-1 lump $-1 $-1 $3 $0 #
+-2 transform $-1 1 0 0 0 1 0 0 0 1 0 0 0 1 rotate no_reflect no_shear #
+-3 shell $-1 $-1 $-1 $4 $-1 $1 #
+-4 face $-1 $5 $6 $3 $-1 $7 reversed single #
+-5 face $-1 $8 $9 $3 $-1 $10 forward single #
+-6 loop $-1 $-1 $11 $4 #
+-7 plane-surface $-1 0 0 0 0 1 0 1 0 0 forward_v F -0.02 F 1.02 F
+-0.029999999999999999 F 1.53 #
+-8 face $-1 $12 $13 $3 $-1 $14 forward single #
+-9 loop $-1 $-1 $15 $5 #
+-10 plane-surface $-1 0 0 0 0 0 1 1 0 0 forward_v F -0.02 F 1.02 F -0.16 F
+8.1600000000000001 #
+-11 coedge $-1 $16 $17 $18 $19 reversed $6 $-1 #
+-12 face $-1 $20 $21 $3 $-1 $22 forward single #
+-13 loop $-1 $-1 $23 $8 #
+-14 plane-surface $-1 0 0 -1.5 -1 0 0 0 0 1 forward_v F -0.029999999999999999 F
+1.53 F -0.16 F 8.1600000000000001 #
+-15 coedge $-1 $24 $25 $26 $27 forward $9 $-1 #
+-16 coedge $-1 $28 $11 $29 $30 reversed $6 $-1 #
+-17 coedge $-1 $11 $28 $25 $31 reversed $6 $-1 #
+-18 coedge $-1 $23 $32 $11 $19 forward $13 $-1 #
+-19 edge $33 $34 0 $35 1 $18 $36 forward 7 unknown #
+-20 face $-1 $37 $38 $3 $-1 $39 forward single #
+-21 loop $-1 $-1 $40 $12 #
+-22 plane-surface $-1 1 0 -1.5 0 0 -1 -1 0 0 forward_v F -0.02 F 1.02 F -0.16 F
+8.1600000000000001 #
+-23 coedge $-1 $41 $18 $42 $43 forward $13 $-1 #
+-24 coedge $-1 $42 $15 $44 $45 reversed $9 $-1 #
+-25 coedge $-1 $15 $42 $17 $31 forward $9 $-1 #
+-26 coedge $-1 $46 $47 $15 $27 reversed $38 $-1 #
+-27 edge $48 $49 0 $50 1 $26 $51 forward 7 unknown #
+-28 coedge $-1 $17 $16 $46 $52 reversed $6 $-1 #
+-29 coedge $-1 $40 $53 $16 $30 forward $21 $-1 #
+-30 edge $54 $55 0 $34 1 $29 $56 forward 7 unknown #
+-31 edge $57 $35 0 $49 1 $25 $58 forward 7 unknown #
+-32 coedge $-1 $18 $41 $40 $59 reversed $13 $-1 #
+-33 ptlist-eye-attrib $-1 $-1 $-1 $19 #
+-34 vertex $-1 $30 $60 #
+-35 vertex $-1 $31 $61 #
+-36 straight-curve $-1 0 0 -1.5 0 0 1.5 F 0 F 1 #
+-37 face $-1 $-1 $62 $3 $-1 $63 forward single #
+-38 loop $-1 $-1 $64 $20 #
+-39 plane-surface $-1 1 0 0 1 0 0 0 0 -1 forward_v F -0.029999999999999999 F
+1.53 F -0.16 F 8.1600000000000001 #
+-40 coedge $-1 $65 $29 $32 $59 forward $21 $-1 #
+-41 coedge $-1 $32 $23 $66 $67 reversed $13 $-1 #
+-42 coedge $-1 $25 $24 $23 $43 reversed $9 $-1 #
+-43 edge $68 $35 0 $69 1 $23 $70 forward 7 unknown #
+-44 coedge $-1 $71 $66 $24 $45 forward $62 $-1 #
+-45 edge $72 $69 0 $50 1 $44 $73 forward 7 unknown #
+-46 coedge $-1 $64 $26 $28 $52 forward $38 $-1 #
+-47 coedge $-1 $26 $64 $71 $74 reversed $38 $-1 #
+-48 ptlist-eye-attrib $-1 $-1 $-1 $27 #
+-49 vertex $-1 $31 $75 #
+-50 vertex $-1 $45 $76 #
+-51 straight-curve $-1 1 0 0 0 8 0 F 0 F 1 #
+-52 edge $77 $49 0 $55 1 $46 $78 forward 7 unknown #
+-53 coedge $-1 $29 $65 $64 $79 reversed $21 $-1 #
+-54 ptlist-eye-attrib $-1 $-1 $-1 $30 #
+-55 vertex $-1 $52 $80 #
+-56 straight-curve $-1 1 0 -1.5 -1 0 0 F 0 F 1 #
+-57 ptlist-eye-attrib $-1 $-1 $-1 $31 #
+-58 straight-curve $-1 0 0 0 1 0 0 F 0 F 1 #
+-59 edge $81 $34 0 $82 1 $40 $83 forward 7 unknown #
+-60 point $-1 0 0 -1.5 #
+-61 point $-1 0 0 0 #
+-62 loop $-1 $-1 $71 $37 #
+-63 plane-surface $-1 0 8 0 0 1 0 1 0 0 forward_v F -0.02 F 1.02 F
+-0.029999999999999999 F 1.53 #
+-64 coedge $-1 $47 $46 $53 $79 forward $38 $-1 #
+-65 coedge $-1 $53 $40 $84 $85 reversed $21 $-1 #
+-66 coedge $-1 $44 $84 $41 $67 forward $62 $-1 #
+-67 edge $86 $82 0 $69 1 $66 $87 forward 7 unknown #
+-68 ptlist-eye-attrib $-1 $-1 $-1 $43 #
+-69 vertex $-1 $43 $88 #
+-70 straight-curve $-1 0 0 0 0 8 0 F 0 F 1 #
+-71 coedge $-1 $84 $44 $47 $74 forward $62 $-1 #
+-72 ptlist-eye-attrib $-1 $-1 $-1 $45 #
+-73 straight-curve $-1 0 8 0 1 0 0 F 0 F 1 #
+-74 edge $89 $50 0 $90 1 $71 $91 forward 7 unknown #
+-75 point $-1 1 0 0 #
+-76 point $-1 1 8 0 #
+-77 ptlist-eye-attrib $-1 $-1 $-1 $52 #
+-78 straight-curve $-1 1 0 0 0 0 -1.5 F 0 F 1 #
+-79 edge $92 $55 0 $90 1 $64 $93 forward 7 unknown #
+-80 point $-1 1 0 -1.5 #
+-81 ptlist-eye-attrib $-1 $-1 $-1 $59 #
+-82 vertex $-1 $59 $94 #
+-83 straight-curve $-1 0 0 -1.5 0 8 0 F 0 F 1 #
+-84 coedge $-1 $66 $71 $65 $85 forward $62 $-1 #
+-85 edge $95 $90 0 $82 1 $84 $96 forward 7 unknown #
+-86 ptlist-eye-attrib $-1 $-1 $-1 $67 #
+-87 straight-curve $-1 0 8 -1.5 0 0 1.5 F 0 F 1 #
+-88 point $-1 0 8 0 #
+-89 ptlist-eye-attrib $-1 $-1 $-1 $74 #
+-90 vertex $-1 $79 $97 #
+-91 straight-curve $-1 1 8 0 0 0 -1.5 F 0 F 1 #
+-92 ptlist-eye-attrib $-1 $-1 $-1 $79 #
+-93 straight-curve $-1 1 0 -1.5 0 8 0 F 0 F 1 #
+-94 point $-1 0 8 -1.5 #
+-95 ptlist-eye-attrib $-1 $-1 $-1 $85 #
+-96 straight-curve $-1 1 8 -1.5 -1 0 0 F 0 F 1 #
+-97 point $-1 1 8 -1.5 #
+End-of-ACIS-data
